@@ -1,0 +1,15 @@
+{
+
+    "version": "0.1.0",
+    
+    "command": "chrome",
+    
+    "windows": {
+        //브라우저 경로
+        "command": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+    },
+    
+    //경로설정
+    "args": ["localhost\\${workspaceRootFolderName}\\${fileBasename}"]
+    
+    }
